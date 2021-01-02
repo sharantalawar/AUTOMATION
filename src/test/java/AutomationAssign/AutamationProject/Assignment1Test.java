@@ -19,7 +19,7 @@ public class Assignment1Test extends BaseTest
 	@Test
 	public void testMethod() throws Exception
 	{
-		DepartmentPage dept = new DepartmentPage(driver);
+		DepartmentPage dept = new DepartmentPage(DepartmentPage);
 		dept.ClickOnDepartment();
 		dept.GetlistOfLink("Faculty of Civil Engineering");
 		
@@ -34,5 +34,10 @@ public class Assignment1Test extends BaseTest
 	@AfterClass (alwaysRun = true)
 	public void afterClass() throws Exception {
 		super.tearDown();
-	}	
+	}
+	
+	@Test
+	public void test1() {
+		System.out.println("mahadevi");
+	}
 }
