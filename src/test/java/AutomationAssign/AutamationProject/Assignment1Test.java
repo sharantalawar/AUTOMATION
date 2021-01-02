@@ -41,4 +41,10 @@ public class Assignment1Test extends BaseTest
 		System.out.println("mahadevi");
 		System.out.println("sharan");
 	}
+	
+	@Test
+	public void test2() {
+		System.out.println("REST API");
+		System.out.println("SELENIUM");
+	}
 }
