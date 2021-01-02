@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="sanity" verbose="10" time-out="600000" parallel="classes" thread-count="1">
+  <test name="sanity" preserve-order="true">
+    <classes>   
+		<class name="AutomationAssign.AutamationProject.Assignment1Test"/>
+		<class name="AutomationAssign.AutamationProject.Assignment2Test"/>
+		<class name="AutomationAssign.AutamationProject.Assignment3Test"/>		
+  </classes>  
+ </test>
+</suite>
+
